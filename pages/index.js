@@ -52,14 +52,15 @@ export default function Home() {
           </nav>
 
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium 
+            dark:text-teal-400 md:text-6xl'>
               David Okaliwe
             </h2>
-            <h3 className='text-2xl py-2 md: text-3xl'>
+            <h3 className='text-2xl py-2 dark:text-white md:text-3xl'>
               Developer | Designer
             </h3>
             <p className='text-md py-5 leading-8 text-gray-800 
-            max-w-xl mx-auto md:text-xl'>
+            dark:text-gray-300 max-w-xl mx-auto md:text-xl'>
               Experienced top-notch developer and creative designer with
               over 6 years of experience of providing amazing services.
               Join me below let's get to it!
@@ -67,7 +68,7 @@ export default function Home() {
           </div>
 
           <div className='text-4xl flex justify-center gap-5 
-          py-3 text-gray-600'>
+          py-3 text-gray-600 dark:text-gray-400'>
             <a href='#'><AiFillTwitterCircle /></a>
             <a href='#'><AiFillLinkedin /></a>
             <a href='#'><AiFillYoutube /></a>
@@ -81,8 +82,8 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className='text-3xl py-1'>Services I offer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>
+            <h3 className='text-3xl py-1 dark:text-white'>Services I offer</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
               Since my journey in the tech ecosystem began,
               I've worked for <span className='text-teal-500'> agencies, 
               </span> consuted for <span className='text-teal-500'>
@@ -90,14 +91,15 @@ export default function Home() {
               to create digital products for both business and consumer 
               use. 
             </p>
-            <p className='text-md py-2 leading-8 text-gray-800'>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
               I offer a wide range of services, including brand design, 
               programming and teaching.
             </p>
           </div>
 
           <div className='lg:flex gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10
+            dark:bg-white flex-1'>
               <Image src={design} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Beautiful Designs
@@ -113,7 +115,8 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Figma</p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10
+            dark:bg-white flex-1'>
               <Image src={code} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Code your dream project
@@ -129,7 +132,8 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Figma</p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10
+            dark:bg-white flex-1'>
               <Image src={consulting} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Consulting
@@ -149,8 +153,9 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className='text-3xl py-1'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>
+            <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
+            <p className='text-md py-2 leading-8 text-gray-800
+            dark:text-gray-200'>
               Since my journey in the tech ecosystem began,
               I've worked for <span className='text-teal-500'> agencies, 
               </span> consuted for <span className='text-teal-500'>
@@ -158,7 +163,8 @@ export default function Home() {
               to create digital products for both business and consumer 
               use. 
             </p>
-            <p className='text-md py-2 leading-8 text-gray-800'>
+            <p className='text-md py-2 leading-8 text-gray-800
+            dark:text-gray-200'>
               I offer a wide range of services, including brand design, 
               programming and teaching.
             </p>

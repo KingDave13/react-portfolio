@@ -160,55 +160,55 @@ export default function Home() {
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
               <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
+                className='rounded-lg object-cover'
+                width={'100%'}
+                height={'100%'}
+                layout='responsive'
                 src={web1}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className='basis-1/3 flex-1'>
               <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
+                className='rounded-lg object-cover'
+                width={'100%'}
+                height={'100%'}
+                layout='responsive'
                 src={web2}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className='basis-1/3 flex-1'>
               <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
+                className='rounded-lg object-cover'
+                width={'100%'}
+                height={'100%'}
+                layout='responsive'
                 src={web3}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className='basis-1/3 flex-1'>
               <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
+                className='rounded-lg object-cover'
+                width={'100%'}
+                height={'100%'}
+                layout='responsive'
                 src={web4}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className='basis-1/3 flex-1'>
               <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
+                className='rounded-lg object-cover'
+                width={'100%'}
+                height={'100%'}
+                layout='responsive'
                 src={web5}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className='basis-1/3 flex-1'>
               <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
+                className='rounded-lg object-cover'
+                width={'100%'}
+                height={'100%'}
+                layout='responsive'
                 src={web6}
               />
             </div>

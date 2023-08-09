@@ -101,7 +101,7 @@ export default function Home() {
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={design} width={100} height={100} />
+              <Image src={code} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Beautiful Designs
               </h3>
@@ -117,7 +117,7 @@ export default function Home() {
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={design} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Beautiful Designs
               </h3>
@@ -131,6 +131,12 @@ export default function Home() {
               <p className='text-gray-800 py-1'>InDesign</p>
               <p className='text-gray-800 py-1'>Figma</p>
             </div>
+          </div>
+        </section>
+
+        <section>
+          <div>
+            
           </div>
         </section>
       </main>

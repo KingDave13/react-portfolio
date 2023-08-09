@@ -3,6 +3,7 @@ import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { 
   AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube 
 } from 'react-icons/ai';
+import { useState } from 'react';
 import Image from 'next/image';
 import deved from '../public/dev-ed-wave.png';
 import design from '../public/design.png';
@@ -17,6 +18,9 @@ import web6 from '../public/web6.png';
 
 
 export default function Home() {
+
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
     <div>
       <Head>

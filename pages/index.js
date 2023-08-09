@@ -45,13 +45,14 @@ export default function Home() {
           </nav>
 
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium'>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>
               David Okaliwe
             </h2>
-            <h3 className='text-2xl py-2'>
+            <h3 className='text-2xl py-2 md: text-3xl'>
               Developer | Designer
             </h3>
-            <p className='text-md py-5 leading-8 text-gray-800'>
+            <p className='text-md py-5 leading-8 text-gray-800 
+            max-w-xl mx-auto md:text-xl'>
               Experienced top-notch developer and creative designer with
               over 6 years of experience of providing amazing services.
               Join me below let's get to it!
@@ -66,7 +67,7 @@ export default function Home() {
           </div>
 
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 
-          rounded-full w-80 h-80 mt-20 overflow-hidden'>
+          rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <Image src={deved} layout='fill' objectFit='cover' />
           </div>
         </section>
@@ -88,7 +89,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div>
+          <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
               <Image src={design} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
@@ -108,11 +109,11 @@ export default function Home() {
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
               <Image src={code} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
-                Beautiful Designs
+                Code your dream project
               </h3>
               <p className='py-2'>
-                Creating elegant designs suited for your needs
-                following design theory.
+                Do you have an idea for your next great website?
+                 Let's make it a reality.
               </p>
               <h4 className='py-4 text-teal-600'>Design tools I use</h4>
               <p className='text-gray-800 py-1'>Photoshop</p>
@@ -124,11 +125,11 @@ export default function Home() {
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
               <Image src={consulting} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
-                Beautiful Designs
+                Consulting
               </h3>
               <p className='py-2'>
-                Creating elegant designs suited for your needs
-                following design theory.
+                Are you interested in feedback for your current project? 
+                I can give you tips and tricks to level it up.
               </p>
               <h4 className='py-4 text-teal-600'>Design tools I use</h4>
               <p className='text-gray-800 py-1'>Photoshop</p>

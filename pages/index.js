@@ -5,6 +5,10 @@ import {
 } from 'react-icons/ai';
 import Image from 'next/image';
 import deved from '../public/dev-ed-wave.png';
+import design from '../public/design.png';
+import code from '../public/code.png';
+import consulting from '../public/consulting.png';
+
 
 
 export default function Home() {
@@ -81,7 +85,17 @@ export default function Home() {
 
           <div>
             <div>
-              <Image src={} />
+              <Image src={design} width={100} height={100} />
+              <h3>Beautiful Designs</h3>
+              <p>
+                Creating elegant designs suited for your needs
+                following design theory.
+              </p>
+              <h4>Design tools I use</h4>
+              <p>Photoshop</p>
+              <p>Illustrator</p>
+              <p>InDesign</p>
+              <p>Figma</p>
             </div>
           </div>
         </section>

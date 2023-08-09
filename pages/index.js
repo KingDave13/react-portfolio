@@ -64,7 +64,8 @@ export default function Home() {
 
         <section>
           <div>
-            <h3>Services I offer</h3>
+            <h3 className='text-3xl py-1'>Services I offer</h3>
+            <p></p>
           </div>
         </section>
       </main>

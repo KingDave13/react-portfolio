@@ -157,7 +157,7 @@ export default function Home() {
             <h3 className='text-3xl py-1 mt-3 font-bold dark:text-white'>Portfolio</h3>
           </div>
 
-          <div className='flex flex-col gap-10 py-5 lg:flex-row lg:flex-wrap'>
+          <div className='flex flex-col gap-10 py-5 pb-12 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
               <Image
                 className='rounded-lg object-cover'

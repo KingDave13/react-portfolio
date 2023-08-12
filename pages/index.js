@@ -91,9 +91,10 @@ export default function Home() {
               to create digital products for both business and consumer 
               use. 
             </p>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
+            <p className='text-md py-2 leading-5 text-gray-800 dark:text-gray-200'>
               I offer a wide range of services, including brand design, 
               programming and teaching.
+
             </p>
           </div>
 

@@ -153,22 +153,8 @@ export default function Home() {
         </section>
 
         <section>
-          <div>
+          <div className='text-center'>
             <h3 className='text-3xl py-1 font-bold dark:text-white'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800
-            dark:text-gray-200'>
-              Since my journey in the tech ecosystem began,
-              I've worked for <span className='text-teal-500'> agencies, 
-              </span> consuted for <span className='text-teal-500'>
-              startups </span> and collaborated with talented people 
-              to create digital products for both business and consumer 
-              use. 
-            </p>
-            <p className='text-md py-2 leading-8 text-gray-800
-            dark:text-gray-200'>
-              I offer a wide range of services, including brand design, 
-              programming and teaching.
-            </p>
           </div>
 
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>

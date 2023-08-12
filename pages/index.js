@@ -82,7 +82,7 @@ export default function Home() {
 
         <section>
           <div className='text-center'>
-            <h3 className='text-3xl font-bold py-1 dark:text-white'>Services I offer</h3>
+            <h3 className='text-3xl font-bold mt-5 py-1 dark:text-white'>Services I offer</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
               Since my journey in the tech ecosystem began,
               I've worked for <span className='text-teal-500'> agencies, 

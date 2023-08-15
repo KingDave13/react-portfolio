@@ -196,7 +196,6 @@ export default function Home() {
             </div>
 
 
-    
             <div className='basis-1/3 flex-1'>
               <Image
                 className='rounded-lg object-cover'

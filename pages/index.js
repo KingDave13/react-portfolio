@@ -113,7 +113,7 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Photoshop</p>
               <p className='text-gray-800 py-1'>Illustrator</p>
               <p className='text-gray-800 py-1'>InDesign</p>
-              <p className='text-gray-800 py-1'>Figma am</p>
+              <p className='text-gray-800 py-1'>Figma a</p>
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10
